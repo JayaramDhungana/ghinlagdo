@@ -1,0 +1,99 @@
+body{
+	margin=0;
+	background-color=#f1f1f1
+}
+header{
+	background-color:green ;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-family: "comic sans ms",arial;
+}
+nav{
+	
+	background-color:red;
+	overflow: hidden;
+}
+nav a{
+	float: left;
+	padding: 14px 16px;
+	color: white;
+    text-decoration: none;
+
+}
+nav a:hover{
+	background-color: black;
+	color: white;
+}
+.column{
+	float:left;
+	padding:10px;
+	text-align: justify;
+}
+.column.side{
+	width:20%;
+	text-align: justify;
+
+}
+.column.middle
+{
+	width:50%;
+	text-align: justify;
+}
+footer
+{
+	
+	clear: both;
+	background-color: green;
+	color: white;
+	text-align:center;
+	font-family: "comic sans ms";
+	padding: 10px;
+}
+@media screen and (max-width: 653px)
+{
+	.column.side ,.column.middle
+{
+		width:100%;
+	
+}
+}
+div.gallery
+{
+	margin:5px;
+	float: left;
+	
+	padding-right:10px;
+	padding-bottom:10px;
+	border:5px solid black;
+}
+div.gallery img
+{
+	
+	height=auto;
+}
+div.gallery:hover{
+	border:5px solid red;
+
+}
+
+input[type=text],select,textarea
+{
+	width=100%;
+	padding: 12px;
+	border: 1px solid red;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	rsize: vertical
+}
+input[type=Submit],Reset
+{
+	background-color: green;
+	color: white;
+	padding;12px 20 px;
+	cursor: pointer;
+	border: none;
+	margin: 2 px;
+}
+
+
